@@ -1,0 +1,97 @@
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.about__img {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+  width: calc(100% - 505px);
+}
+
+.about__wrapper {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 500px;
+}
+
+.about__text-wrapper {
+  margin: 0 0 40px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 144%;
+  margin: 0 0 25px;
+}
+
+.about__text:nth-of-type(2) {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.about__quote {
+  margin: 0;
+  display: flow-root;
+}
+
+.about__quote-text {
+  position: relative;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+  padding-left: 30px;
+  margin: 0 0 39px;
+  white-space: pre-line;
+}
+
+.about__quote-text::before,
+::after {
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.about__quote-text::before {
+  position: absolute;
+  content: "\201c";
+  left: 0;
+  top: -8px;
+}
+
+.about__quote-text::after {
+  content: " \201d";
+}
+
+.about__autor {
+  float: right;
+  margin: 0;
+}
+
+.about__autor-img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: center top;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.about__autor-quote {
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  max-width: 280px;
+  padding: 0 20px 0 0;
+  margin: 0;
+}
