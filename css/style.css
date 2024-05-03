@@ -90,7 +90,10 @@ iframe {
 }
 
 section,
-.container-footer,
 article {
   padding: 50px 0;
+}
+
+.container-footer {
+  padding: 50px 30px;
 }
