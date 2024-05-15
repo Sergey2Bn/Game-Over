@@ -1,0 +1,55 @@
+.picturs__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+
+.picturs__list {
+  min-height: 496px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+
+}
+
+.picturs__item {
+  width: calc(30% + 26px);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.picturs__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  padding: 166px 40px 6px;
+}
+
+.picturs__item-vr {
+  background-image: url('../img/vr-picture.png');
+}
+
+.picturs__item-dj {
+  background-image: url('../img/dj.png');
+}
+
+.picturs__item-karaoke {
+  background-image: url('../img/karaoke.png');
+}
+
+.picturs__item-table {
+  background-image: url('../img/table-games.png');
+}
+
+.picturs__item-films {
+  background-image: url('../img/films.png');
+}
+
+.picturs__item-games {
+  background-image: url('../img/video-games.png');
+}

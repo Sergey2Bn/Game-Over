@@ -93,3 +93,10 @@ section,
 article {
   padding: 50px 0;
 }
+
+/* бурал рамку у fieldset */
+
+fieldset {
+  border: none;
+  padding: 0;
+}

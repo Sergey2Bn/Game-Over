@@ -1,6 +1,8 @@
 @import "css/normalize.css";
 @import "css/style.css";
-@import "css/head.css";
+@import "css/header.css";
+@import "css/top.css";
+@import "css/picture.css";
 @import "css/rooms.css";
 @import "css/booking.css";
 @import "css/about.css";
