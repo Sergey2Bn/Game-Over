@@ -11,14 +11,14 @@
 .picturs__list {
   min-height: 496px;
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-content: space-between;
-
 }
 
 .picturs__item {
-  width: calc(30% + 26px);
+  flex-basis: 380px;
+  padding: 166px 40px 6px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -27,7 +27,6 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 140%;
-  padding: 166px 40px 6px;
 }
 
 .picturs__item-vr {
