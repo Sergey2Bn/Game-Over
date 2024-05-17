@@ -11,21 +11,17 @@
 }
 
 .rooms__list {
-  list-style: none;
-  font-size: 0;
-  margin: -10px;
-  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .rooms__item {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(50% - 20px);
+  flex-basis: 580px;
   padding: 135px 20px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 10px;
 }
 
 .rooms__text {

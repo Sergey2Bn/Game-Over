@@ -1,5 +1,12 @@
-.container-footer {
+.footer {
   padding: 50px 0;
+  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+}
+
+.container-footer {
+  margin-bottom: 156px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__title {
@@ -65,4 +72,15 @@
 
 .social-list__link {
   display: block;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 114%;
+}
+
+.footer__bottom-cite {
+  margin-bottom: 6px;
 }
