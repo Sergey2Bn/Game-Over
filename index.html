@@ -102,112 +102,130 @@
     </section>
 
     <section id="booking" class="booking">
+
+      <h2 class="booking__title">Забронировать зал просто</h2>
       <div class="container">
-        <h2 class="booking__title">Забронировать</h2>
-        <form class="booking-form" name="booking-form" action="https://jsonplaceholder.typicode.com/posts"
-          method="post">
-          <fieldset class="booking-form__rooms">
-            <input class="booking-form__input" id="80-vibes" type="radio" name="room" value="80-vibes">
-            <label class="booking-form__label" for="80-vibes">80's vibes</label>
+        <form name="booking__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
 
-            <input class="booking-form__input" id="star-wars" type="radio" name="room" value="star-wars">
-            <label class="booking-form__label" for="star-wars">Star wars</label>
+          <fieldset class="booking__rooms">
+            <legend class="booking__subtitle booking__subtitle-main">Выбери зал</legend>
 
-            <input class="booking-form__input" id="wild-west" type="radio" name="room" value="wild-west">
-            <label class="booking-form__label" for="wild-west">Wild west</label>
+            <input class="booking__input-rooms visually-hidden" id="80-vibes" type="radio" name="room" value="80-vibes">
+            <label class="booking__label-rooms" for="80-vibes">80's vibes</label>
 
-            <input class="booking-form__input" id="neon-style" type="radio" name="room" value="neon-style">
-            <label class="booking-form__label" for="neon-style">Neon style</label>
+            <input class="booking__input-rooms visually-hidden" id="star-wars" type="radio" name="room"
+              value="star-wars">
+            <label class="booking__label-rooms" for="star-wars">Star wars</label>
+
+            <input class="booking__input-rooms visually-hidden" id="wild-west" type="radio" name="room"
+              value="wild-west">
+            <label class="booking__label-rooms" for="wild-west">Wild west</label>
+
+            <input class="booking__input-rooms visually-hidden" id="neon-style" type="radio" name="room"
+              value="neon-style">
+            <label class="booking__label-rooms" for="neon-style">Neon style</label>
           </fieldset>
 
-          <fieldset class="booking-form__content">
-            <legend class="booking-form__title">Собери набор развлечений</legend>
-            <fieldset class="booking-form__ports">
-              <legend class="booking-form__subtitle">Приставки</legend>
+          <fieldset class="booking__entertainment">
+            <legend class="booking__subtitle booking__subtitle-main">Собери набор развлечений</legend>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="radio" name="uzebox" value="play-station">PlayStation
+            <fieldset class="booking__entertainment-item">
+              <legend class="booking__subtitle">Приставка:</legend>
+
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="radio" name="uzebox" value="play-station">PlayStation
               </label>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="radio" name="uzebox" value="sega-mega-drive">Sega Mega
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="radio" name="uzebox" value="sega-mega-drive">Sega Mega
                 Drive
               </label>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="radio" name="uzebox" value="x-box-one-s">X-box One S
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="radio" name="uzebox" value="x-box-one-s">X-box One S
               </label>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="radio" name="uzebox" value="dendy">Dendy
-              </label>
-
-            </fieldset>
-
-            <fieldset class="booking-form__content-games">
-              <legend class="booking-form__subtitle">Настольные игры</legend>
-
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="board-game" value="jenga">Jenga
-              </label>
-
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="board-game" value="monopoly">Monopoly
-              </label>
-
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="board-game" value="munchkin">Манчкин
-              </label>
-
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="board-game" value="alias">Alias
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="radio" name="uzebox" value="dendy">Dendy
               </label>
             </fieldset>
 
-            <fieldset class="booking-form__content-add">
-              <legend class="booking-form__subtitle">Дополнительно</legend>
+            <fieldset class="booking__entertainment-item">
+              <legend class="booking__subtitle">Настольные игры:</legend>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="additionally" value="karaoke">Караоке
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="board-game" value="jenga">Jenga
               </label>
 
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="additionally" value="vr">VR
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="board-game" value="monopoly">Monopoly
+              </label>
+
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="board-game" value="munchkin">Манчкин
+              </label>
+
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="board-game" value="alias">Alias
               </label>
             </fieldset>
 
-            <fieldset class="booking-form__content-date">
-              <legend class="booking-form__subtitle">Выберите дату и время</legend>
-              <label class="booking-form__label" for="date">Дата*</label>
-              <input class="booking-form__input" id="date" type="date" name="date" required>
+            <fieldset class="booking__entertainment-item">
+              <legend class="booking__subtitle">Дополнительно:</legend>
 
-              <label class="booking-form__label" for="time">Время*</label>
-              <input class="booking-form__input" id="time" type="time" name="time" required>
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="additionally" value="karaoke">Караоке
+              </label>
 
-              <label class="booking-form__label" for="persons">Количество человек*</label>
-              <input class="booking-form__input" id="persons" type="number" name="persons" placeholder="" required>
-
-              <label class="booking-form__label" for="name">Имя*</label>
-              <input class="booking-form__input" id="name" type="text" name="name" required>
-
-              <label class="booking-form__label" for="lastname">Фамилия*</label>
-              <input class="booking-form__input" id="lastname" type="text" name="lastname" required>
-
-              <label class="booking-form__label" for="phone">Номер телефона*</label>
-              <input class="booking-form__input" id="phone" type="tel" name="phone" required>
-
-              <label class="booking-form__label">
-                <input class="booking-form__input" type="checkbox" name="years" required>Я старше 18 лет
+              <label class="booking__entertainment-label">
+                <input class="booking__entertainment-input" type="checkbox" name="additionally" value="vr">VR
               </label>
             </fieldset>
           </fieldset>
 
-          <button class="booking-form__button" type="submit">Забронировать</button>
+          <fieldset class="booking__data">
+            <legend class="booking__subtitle booking__subtitle-main">Выберите дату и время:</legend>
 
-          <label class="booking-form__label">
-            <input class="booking-form__input" type="checkbox" name="comfirmed" required>Согласен на обработку
-            данных
-          </label>
+            <div class="booking__data-wrapper">
+              <div class="booking__date-wrapper">
+                <input class="booking__data-date" id="date" type="date" name="date" required>
+                <input class="booking__data-date" id="time" type="time" name="time" required>
+              </div>
+
+              <input class="booking__data-quantity" id="persons" type="number" name="persons"
+                placeholder="Количество человек" required>
+            </div>
+
+            <div class="booking__data-wrapper">
+              <label for="name">
+                <p class="booking__data-text">Имя</p>
+              </label>
+              <input class="booking__data-input" id="name" type="text" name="name" required>
+
+              <label for="lastname">
+                <p class="booking__data-text">Фамилия</p>
+              </label>
+              <input class="booking__data-input" id="lastname" type="text" name="lastname" required>
+            </div>
+
+            <div class="booking__data-wrapper">
+              <label for="phone">
+                <p class="booking__data-text">Телефон</p>
+              </label>
+              <input class="booking__data-input" id="phone" type="tel" name="phone" required>
+
+              <label for="mail">
+                <p class="booking__data-text">E-mail</p>
+              </label>
+              <input class="booking__data-input" id="mail" type="email" name="mail" required>
+            </div>
+
+          </fieldset>
+          <div class="button-wrapper">
+            <button class="booking__button" type="submit">Забронировать</button>
+          </div>
+
+
         </form>
       </div>
     </section>

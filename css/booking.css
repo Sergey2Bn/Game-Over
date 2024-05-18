@@ -1,3 +1,11 @@
+.booking {
+  background-color: #440f51;
+}
+
+.booking__data {
+  flex-wrap: wrap;
+}
+
 .booking__title {
   font-weight: 700;
   font-size: 40px;
@@ -5,4 +13,122 @@
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 40px;
+}
+
+.booking__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  margin-bottom: 24px;
+}
+
+.booking__subtitle-main {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking__rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.booking__label-rooms {
+  display: block;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  padding: 8px 15px;
+}
+
+.booking__entertainment {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.booking__entertainment-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__entertainment-label {
+  padding-left: 5px;
+  font-size: 22px;
+}
+
+.booking__entertainment-label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.booking__entertainment-input {
+  margin-right: 12px;
+  transform: scale(2);
+}
+
+.booking__data {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.booking__data-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 114%;
+  margin-bottom: 5px;
+}
+
+.booking__data-wrapper {
+  align-self: flex-end;
+}
+
+.booking__date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.booking__data-date {
+  width: 134px;
+  height: 52px;
+}
+
+.booking__data-quantity {
+  width: 300px;
+  height: 52px;
+}
+
+.booking__data-input {
+  width: 300px;
+  height: 52px;
+}
+
+.booking__data-input:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.booking__button {
+  padding: 16px 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  color: #6c0287;
+  background-color: #fff;
+  border-radius: 10px;
 }
