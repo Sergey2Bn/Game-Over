@@ -8,11 +8,25 @@
 }
 
 .faq__item {
+  position: relative;
+  padding: 20px 70px;
+  margin: 0 0 20px;
+}
+
+.faq_text {
+  /* display: inline-block; */
   font-weight: 700;
   line-height: 46px;
   font-size: 24px;
-  padding: 30px 70px;
-  margin: 0 0 20px;
+}
+
+.faq_text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .faq__item:last-child {
