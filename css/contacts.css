@@ -75,17 +75,20 @@
 }
 
 .social-list__link:hover,
-.footer__bottom-link:hover {
+.footer__bottom-link:hover,
+.contacts-list__link:hover {
   color: #eadeed;
 }
 
 .social-list__link:focus,
-.footer__bottom-link:focus {
+.footer__bottom-link:focus,
+.contacts-list__link:focus {
   outline: 1px solid #cd06ff;
 }
 
 .social-list__link:active,
-.footer__bottom-link:active {
+.footer__bottom-link:active,
+.contacts-list__link:active {
   outline: none;
   color: #cd06ff;
 }
