@@ -23,6 +23,19 @@
   text-transform: uppercase;
 }
 
+.nav__link:hover {
+  color: #eadeed;
+}
+
+.nav__link:focus {
+  outline: 1px solid #cd06ff;
+}
+
+.nav__link:active {
+  outline: none;
+  color: #cd06ff;
+}
+
 .header__button {
   font-weight: 700;
   font-size: 22px;
