@@ -187,5 +187,6 @@
 }
 
 .booking__button:active {
+  outline: none;
   background-color: #eadeed;
 }
