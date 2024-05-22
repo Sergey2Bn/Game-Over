@@ -45,10 +45,6 @@
   max-width: 193px;
 }
 
-/* .top__card-item:not(:last-child) {
-  margin-right: 40px;
-} */
-
 .top__item {
   font-weight: 900;
   font-size: 100px;
@@ -78,10 +74,33 @@
   z-index: 2;
 }
 
-.top_down-arrow {
+.top__down-arrow {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 10%;
   z-index: 2;
+}
+
+.top__down-arrow:hover {
+  background-image: url(../img/ico/down-arrow-white.png);
+}
+
+.top__down-arrow:active {
+  background-image: url(../img/ico/down-arrow-purple.png);
+}
+
+.top__down-arrow:focus {
+  outline: 1px solid #cd06ff;
+}
+
+
+
+.button:hover,
+.button:focus {
+  background-color: #840aa3;
+}
+
+.button:active {
+  background-color: #640aa3;
 }

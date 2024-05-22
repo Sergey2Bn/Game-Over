@@ -11,16 +11,16 @@
   position: relative;
   padding: 20px 70px;
   margin: 0 0 20px;
+
 }
 
-.faq_text {
-  /* display: inline-block; */
+.faq__text {
   font-weight: 700;
   line-height: 46px;
   font-size: 24px;
 }
 
-.faq_text::before {
+.faq__text::before {
   content: '';
   position: absolute;
   top: 0;
@@ -44,7 +44,7 @@
 }
 
 
-.faq__item::after {
+.faq__text::after {
   float: right;
   display: block;
   content: "";
@@ -53,10 +53,26 @@
   height: 46px;
 }
 
-.faq__item:nth-child(even):after {
+.faq__text-white::after {
   background-image: url(../img/ico/open-white.svg);
 }
 
-.faq__item:nth-child(odd):after {
+.faq__text-purple::after {
   background-image: url(../img/ico/open-purple.svg);
+}
+
+.faq__text-white:hover::after {
+  background-image: url(../img/ico/open-full-white.svg);
+}
+
+.faq__text-purple:hover::after {
+  background-image: url(../img/ico/open-full-purple.svg);
+}
+
+.faq__text-white:active::after {
+  background-image: url(../img/ico/close-white.svg);
+}
+
+.faq__text-purple:active::after {
+  background-image: url(../img/ico/close-purple.svg);
 }

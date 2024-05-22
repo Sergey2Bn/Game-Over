@@ -74,6 +74,21 @@
   display: block;
 }
 
+.social-list__link:hover,
+.footer__bottom-link:hover {
+  color: #eadeed;
+}
+
+.social-list__link:active,
+.footer__bottom-link:active {
+  color: #cd06ff;
+}
+
+.social-list__link:focus,
+.footer__bottom-link:focus {
+  outline: 1px solid #cd06ff;
+}
+
 .footer__bottom {
   display: flex;
   justify-content: space-between;

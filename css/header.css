@@ -33,3 +33,12 @@
   border: 3px solid #cd06ff;
   border-radius: 10px;
 }
+
+.header__button:hover,
+.header__button:focus {
+  background-color: #6c0287;
+}
+
+.header__button:active {
+  background-color: #640aa3;
+}

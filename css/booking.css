@@ -34,9 +34,17 @@
   margin-bottom: 60px;
 }
 
+.booking__label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 8px;
+}
+
 .booking__label-rooms {
   display: block;
-  width: 250px;
+  width: 100%;
   border-radius: 8px;
   background-color: #fff;
   font-weight: 700;
@@ -47,6 +55,24 @@
   color: #000;
   padding: 8px 15px;
 }
+
+.booking__label-rooms:hover,
+.booking__label:focus {
+  outline: 3px solid #640aa3;
+  background-color: #eadeed;
+}
+
+.booking__label:focus {
+  background-color: #fff;
+}
+
+.booking__input-rooms:checked+.booking__label-rooms {
+  outline: 3px solid #fff;
+  background-color: #6c0287;
+  color: #fff;
+}
+
+
 
 .booking__entertainment {
   display: flex;
@@ -72,6 +98,10 @@
 .booking__entertainment-input {
   margin-right: 12px;
   transform: scale(2);
+}
+
+.booking__entertainment-input:focus {
+  outline: 1px solid #cd06ff;
 }
 
 .booking__data {
@@ -124,6 +154,12 @@
   margin-bottom: 14px;
 }
 
+.booking__data-date:focus,
+.booking__data-input:focus,
+.booking__data-quantity:focus {
+  outline: 2px solid #cd06ff;
+}
+
 .button-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -139,4 +175,17 @@
   color: #6c0287;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.booking__button:hover {
+  outline: 3px solid #6c0287;
+  background-color: #eadeed;
+}
+
+.booking__button:active {
+  background-color: #eadeed;
+}
+
+.booking__button:focus {
+  outline: 3px solid #6c0287;
 }
