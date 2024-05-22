@@ -91,6 +91,7 @@
 }
 
 .top__down-arrow:active {
+  outline: none;
   background-image: url(../img/ico/down-arrow-purple.png);
 }
 
