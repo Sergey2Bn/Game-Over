@@ -86,15 +86,13 @@
   background-image: url(../img/ico/down-arrow-white.png);
 }
 
-.top__down-arrow:active {
-  background-image: url(../img/ico/down-arrow-purple.png);
-}
-
 .top__down-arrow:focus {
   outline: 1px solid #cd06ff;
 }
 
-
+.top__down-arrow:active {
+  background-image: url(../img/ico/down-arrow-purple.png);
+}
 
 .button:hover,
 .button:focus {

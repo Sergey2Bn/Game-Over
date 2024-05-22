@@ -182,10 +182,10 @@
   background-color: #eadeed;
 }
 
-.booking__button:active {
-  background-color: #eadeed;
-}
-
 .booking__button:focus {
   outline: 3px solid #6c0287;
+}
+
+.booking__button:active {
+  background-color: #eadeed;
 }
