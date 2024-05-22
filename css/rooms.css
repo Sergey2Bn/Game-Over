@@ -32,7 +32,20 @@
   text-align: center;
 }
 
-.rooms__text::before {
+.rooms__text:hover {
+  color: #eadeed;
+}
+
+.rooms__text:focus {
+  outline: 1px solid #cd06ff;
+}
+
+.rooms__text:active {
+  outline: none;
+  color: #cd06ff;
+}
+
+.rooms__text::after {
   content: '';
   position: absolute;
   top: 0;
