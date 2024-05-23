@@ -27,6 +27,13 @@
   line-height: 140%;
 }
 
+.picturs__item:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  box-shadow: 0 0 4px 1px #fff;
+  cursor: pointer;
+}
+
 .picturs__item-vr {
   background-image: url('../img/vr-picture.png');
 }
