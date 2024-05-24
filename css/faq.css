@@ -51,6 +51,7 @@
   background-size: contain;
   width: 46px;
   height: 46px;
+  transition: 0.4s;
 }
 
 .faq__text-white::after {
