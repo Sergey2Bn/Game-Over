@@ -19,6 +19,7 @@
   padding: 166px 40px 6px;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.4s;
 }
 
 .picturs__text {
@@ -29,7 +30,6 @@
 
 .picturs__item:hover {
   transform: scale(1.1);
-  transition: 0.4s;
   box-shadow: 0 0 4px 1px #fff;
   cursor: pointer;
 }
