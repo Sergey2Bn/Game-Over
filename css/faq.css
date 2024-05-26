@@ -34,12 +34,12 @@
 }
 
 .faq__item:nth-child(even) {
-  background-color: #440F51;
-  color: white;
+  background-color: var(--dark-violet);
+  color: var(--bgColor2);
 }
 
 .faq__item:nth-child(odd) {
-  background-color: #fff;
+  background-color: var(--bgColor2);
   color: #1C1A1A;
 }
 

@@ -48,7 +48,7 @@
 .top__item {
   font-weight: 900;
   font-size: 100px;
-  color: #cd06ff;
+  color: var(--light-violet);
 }
 
 .top__item-second {
@@ -68,9 +68,9 @@
   font-size: 26px;
   line-height: 115%;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--bgColor2);
   border-radius: 10px;
-  background: #6c0287;
+  background: var(--violet);
   z-index: 2;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .top__down-arrow:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--light-violet);
 }
 
 .top__down-arrow:active {
@@ -114,5 +114,5 @@
 }
 
 .button:active {
-  background-color: #640aa3;
+  background-color: var(--semi-violet);
 }

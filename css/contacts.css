@@ -22,7 +22,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 117%;
-  color: #fff;
   font-style: normal;
   margin: 0 0 40px;
 }
@@ -36,7 +35,7 @@
 }
 
 .contacts-list__link {
-  color: #fff;
+  color: var(--bgColor2);
   text-decoration: none;
 }
 
@@ -77,20 +76,20 @@
 .social-list__link:hover,
 .footer__bottom-link:hover,
 .contacts-list__link:hover {
-  color: #eadeed;
+  color: var(--bgColor);
 }
 
 .social-list__link:focus,
 .footer__bottom-link:focus,
 .contacts-list__link:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--light-violet);
 }
 
 .social-list__link:active,
 .footer__bottom-link:active,
 .contacts-list__link:active {
   outline: none;
-  color: #cd06ff;
+  color: var(--light-violet);
 }
 
 .footer__bottom {

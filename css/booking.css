@@ -1,5 +1,5 @@
 .booking {
-  background-color: #440f51;
+  background-color: var(--dark-violet);
 }
 
 .booking__data {
@@ -46,7 +46,7 @@
   display: block;
   width: 100%;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--bgColor2);
   font-weight: 700;
   font-size: 30px;
   line-height: 133%;
@@ -59,18 +59,18 @@
 
 .booking__label-rooms:hover,
 .booking__label:focus {
-  outline: 3px solid #640aa3;
-  background-color: #eadeed;
+  outline: 3px solid var(--semi-violet);
+  background-color: var(--bgColor);
 }
 
 .booking__label:focus {
-  background-color: #fff;
+  background-color: var(--bgColor2);
 }
 
 .booking__input-rooms:checked+.booking__label-rooms {
-  outline: 3px solid #fff;
-  background-color: #6c0287;
-  color: #fff;
+  outline: 3px solid var(--bgColor2);
+  background-color: var(--violet);
+  color: var(--bgColor2);
 }
 
 
@@ -103,7 +103,7 @@
 }
 
 .booking__entertainment-input:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--light-violet);
 }
 
 .booking__data {
@@ -118,7 +118,7 @@
   font-size: 14px;
   line-height: 114%;
   margin-bottom: 5px;
-  color: #fff;
+  color: var(--bgColor2);
 }
 
 .booking__data-wrapper {
@@ -140,7 +140,7 @@
   width: 300px;
   font-size: 18px;
   line-height: 135%;
-  color: #211e1e;
+  color: var(--bgColor);
   padding: 12px 20px;
 }
 
@@ -148,7 +148,7 @@
   width: 300px;
   font-size: 18px;
   line-height: 135%;
-  color: #211e1e;
+  color: var(--bgColor);
   padding: 12px 20px;
 }
 
@@ -160,7 +160,7 @@
 .booking__data-input:focus,
 .booking__data-quantity:focus {
   transition: 0.2s;
-  outline: 2px solid #cd06ff;
+  outline: 2px solid var(--light-violet);
 }
 
 .button-wrapper {
@@ -175,22 +175,22 @@
   font-size: 22px;
   line-height: 127%;
   text-transform: uppercase;
-  color: #6c0287;
-  background-color: #fff;
+  color: var(--violet);
+  background-color: var(--bgColor2);
   border-radius: 10px;
   transition: 0.4s;
 }
 
 .booking__button:hover {
-  outline: 3px solid #6c0287;
-  background-color: #eadeed;
+  outline: 3px solid var(--violet);
+  background-color: var(--bgColor);
 }
 
 .booking__button:focus {
-  outline: 3px solid #6c0287;
+  outline: 3px solid var(--violet);
 }
 
 .booking__button:active {
   outline: none;
-  background-color: #eadeed;
+  background-color: var(--bgColor);
 }

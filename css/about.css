@@ -55,7 +55,7 @@
 
 .about__quote-text::before,
 ::after {
-  color: #6C0287;
+  color: var(--violet);
   font-weight: 900;
 }
 

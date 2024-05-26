@@ -1,0 +1,12 @@
+:root {
+  --light-violet: #cd06ff;
+  --violet: #6c0287;
+  --semi-violet: #640aa3;
+  --dark-violet: #440F51;
+  --bgColor: #eadeed;
+  --bgColor2: white;
+}
+
+.booking {
+  --booking-color: #211e1e;
+}
