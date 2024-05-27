@@ -73,8 +73,6 @@
   color: var(--bgColor2);
 }
 
-
-
 .booking__entertainment {
   display: flex;
   justify-content: space-around;
@@ -114,6 +112,7 @@
 }
 
 .booking__data-text {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 114%;

@@ -5,6 +5,13 @@
   --dark-violet: #440F51;
   --bgColor: #eadeed;
   --bgColor2: white;
+
+  /* карточки и gap */
+  --cart-count: 3;
+  --gap: 30px;
+  /* в зависимости от --cart-count будет кол-во карточек */
+  --flex-basis: calc(100% / var(--cart-count) - (var(--gap) * (var(--cart-count) - 1)) / var(--cart-count));
+
 }
 
 .booking {

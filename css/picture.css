@@ -9,17 +9,20 @@
 }
 
 .picturs__list {
+  height: 565px;
   display: flex;
-  gap: 40px 20px;
+  gap: var(--gap);
   flex-wrap: wrap;
+  align-content: stretch;
 }
 
 .picturs__item {
-  flex-basis: 380px;
-  padding: 166px 40px 6px;
+  flex-basis: var(--flex-basis);
+  padding: 194px 40px 6px;
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.4s;
+  align-self: flex-start;
 }
 
 .picturs__text {
@@ -30,7 +33,7 @@
 
 .picturs__item:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 4px 1px #fff;
+  box-shadow: 0 0 4px 1px var(--bgColor2);
   cursor: pointer;
 }
 
@@ -39,6 +42,8 @@
 }
 
 .picturs__item-dj {
+  padding: 166px 40px 6px;
+  align-self: flex-end;
   background-image: url('../img/dj.png');
 }
 
@@ -51,6 +56,8 @@
 }
 
 .picturs__item-films {
+  padding: 166px 40px 6px;
+  align-self: flex-end;
   background-image: url('../img/films.png');
 }
 

@@ -25,20 +25,41 @@
 }
 
 .reviews__avatar {
+  position: relative;
   width: 280px;
   height: 280px;
-  object-fit: cover;
-  object-position: top;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
   margin: 0 0 11px;
 }
 
+.reviews__avatar::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(196, 196, 196) 0%, rgb(108, 2, 135) 100%);
+  opacity: .4;
+}
+
+.reviews__avatar_maksim_style {
+  filter: contrast(1.3);
+  background-image: url(../img/maksim.png);
+}
+
 .reviews__avatar_oksana_style {
-  object-position: 0 -40px;
+  filter: contrast(1.3);
+  background-image: url(../img/oksana.png);
+  background-position: 0 -40px;
 }
 
 .reviews__avatar_nikita_style {
-  object-position: center;
+  background-image: url(../img/nikita.png);
+  background-position: center;
 }
 
 .reviews__cite {
